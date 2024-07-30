@@ -1,0 +1,28 @@
+PIP:
+pip install name: устанавливает
+pip freeze: показывает что вы себе скачали
+
+скачать art
+прописать pip freeze > reg.txt - создает название такого файла
+имортировать art: from art import tprint
+
+
+
+git config --global user.name "ван никнейм в гитхабе": сохраняет данные о вас
+git config --global user.email "ваш имейл": сохраняет данные
+
+1 раз
+git init: связывает гит с вашим проектом
+git remote add origin ссылка на ваш репозиторий: связывает ваш проект к репозиторию
+
+всегда
+git add . : Добавляет файлы
+git commit -m 'название' сохраняет данные
+
+
+
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/InkubatorII/Month2.git
+git push -u origin main
