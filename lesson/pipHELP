@@ -21,3 +21,5 @@ git commit -m 'название' сохраняет данные
 git push origin master\main
 
 
+git rm --cached namefile : удаляет 1 файл с гита
+git rm --cached -r namefile : удаляет целую директорию файлов в документе
