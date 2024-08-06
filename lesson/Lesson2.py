@@ -16,6 +16,7 @@ class Book:
         return (f'Title: {self.title}, Author: {self.author}, \n'
                 f'Color: {self.color}, Strr: {self.strr}')
 
+
     def __len__(self):
         return len(self.title + self.author + self.color)
 
