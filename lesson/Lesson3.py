@@ -18,8 +18,8 @@ class Book:
                 f'Цена: {self.price}\n')
 
 tamirlan=Book('Bleach', 'Tamirlan', 2500)
-print(tamirlan)
-tamirlan.reads()
+# print(tamirlan)
+# tamirlan.reads()
 # Дочерний класс
 class Nowella(Book):
 
@@ -36,5 +36,5 @@ class Nowella(Book):
         print('я читаю книгу под авторством', self.author, 'и я купил ее за', self.price)
 
 dan = Nowella('Naruto', 'Dan', 2000, '70x20')
-print(dan)
-dan.reads()
+# print(dan)
+# dan.reads()
